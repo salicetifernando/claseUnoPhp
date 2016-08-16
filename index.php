@@ -1,11 +1,23 @@
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/xampp/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
+<HTML>
+
+<head>
+	<title>Saliceti</title>
+
+	
+</head>
+
+<body>
+<h1> <?php
+//include num.php;
+ echo "<h2> Hola php </<h2>";
+  ?> </h1>
+  <?php
+  $numero = 10;
+
+  //echo "El numero es: $numero";
+
+  echo "El cambio";
+  ?>
+</body>
+
+</HTML>
