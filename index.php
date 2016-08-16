@@ -16,7 +16,7 @@
 
   //echo "El numero es: $numero";
 
-  echo "El cambio";
+  echo "el cambio";
   ?>
 </body>
 
